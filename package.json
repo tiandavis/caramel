@@ -1,0 +1,19 @@
+{
+  "name": "respoke-emails",
+  "version": "0.0.1",
+  "description": "Respoke HTML Emails",
+  "main": "",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-premailer": "^0.3.0",
+    "harp": "^0.14.0",
+    "mandrill-api": "^1.0.41",
+    "shelljs": "^0.3.0"
+  }
+}

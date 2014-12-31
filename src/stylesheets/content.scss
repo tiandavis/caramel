@@ -1,0 +1,47 @@
+@import 'variables';
+
+.tagline {
+	padding: 0 0 5px 0; 
+	font-size: 14px; 
+	font-family: Arial, sans-serif; 
+	color: #666666; 
+	text-decoration: none;
+}
+
+.header {
+	font-size: 25px; 
+	font-family: $font-family; 
+	color: #333333;
+}
+
+.content {
+	padding: 20px 0 0 0; 
+	font-size: 16px; 
+	line-height: 25px; 
+	font-family: $font-family; 
+	color: #666666;
+}
+
+.article-header {
+	padding: 0 0 5px 25px; 
+	font-size: 13px; 
+	font-family: $font-family; 
+	font-weight: normal; 
+	color: #aaaaaa;
+}
+
+.article-intro {
+	padding: 0 0 5px 25px; 
+	font-size: 22px; 
+	font-family: $font-family; 
+	font-weight: normal; 
+	color: #333333;
+}
+
+.article-desc {
+	padding: 10px 0 15px 25px; 
+	font-size: 16px; 
+	line-height: 24px; 
+	font-family: $font-family; 
+	color: #666666;
+}

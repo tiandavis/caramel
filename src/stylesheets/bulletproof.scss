@@ -1,0 +1,46 @@
+@import 'variables';
+@import 'mixins';
+
+.mobile-button {
+	font-size: 15px; 
+	font-family: $font-family; 
+	font-weight: normal; 
+	color: #ffffff; 
+	text-decoration: none; 
+	@include border-radius(3px);
+	display: inline-block;
+}
+
+.blue {
+	@include mobile-button-border(#5D9CEC)
+}
+
+.red {
+	@include mobile-button-border(#FA563C)
+}
+
+.green {
+	@include mobile-button-border(#48CFAD)
+}
+
+.litmus-gold {
+	@include mobile-article-button-border(#F6BB42)
+}
+
+.mailchimp-blue {
+	@include mobile-article-button-border(#5D9CEC)
+}
+
+.campaign-monitor-blue {
+	@include mobile-article-button-border(#4FC1E9)
+}
+
+.github-blue {
+	@include mobile-article-button-border(#4FC1E9)
+}
+
+.twitter-blue {
+	@include mobile-article-button-border(#4D98D5)
+}
+
+

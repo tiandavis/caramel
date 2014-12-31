@@ -1,0 +1,37 @@
+@import 'variables';
+
+/* RESET STYLES */
+body {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: 0;
+	height: auto;
+	line-height: 100%;
+	outline: none;
+	text-decoration: none;
+}
+
+table {
+	border-collapse: collapse !important;
+}
+
+body {
+	height: 100% !important;
+	margin: 0;
+	padding:0;
+	width: 100% !important;
+}
+
+/* iOS BLUE LINKS */
+.appleBody a {
+	color: #68440a;
+	text-decoration: none;
+}
+
+.appleFooter a {
+	color: #999999;
+	text-decoration: none;
+}

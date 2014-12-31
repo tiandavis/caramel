@@ -1,0 +1,22 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin mobile-button-border($color) {
+	background-color: $color; 
+	border-top: 15px solid $color; 
+	border-bottom: 15px solid $color; 
+	border-left: 25px solid $color; 
+	border-right: 25px solid $color; 
+}
+
+@mixin mobile-article-button-border($color) {
+	background-color: $color; 
+	border-top: 10px solid $color; 
+	border-bottom: 10px solid $color; 
+	border-left: 20px solid $color; 
+	border-right: 20px solid $color; 
+}

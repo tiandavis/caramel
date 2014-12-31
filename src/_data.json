@@ -1,0 +1,50 @@
+{
+	"defaults": {
+		"fromEmail": "hello@company.com",
+		"fromName": "Company"
+	},
+	"salted": {
+		"title": "Salted A",
+		"text": ["Yes. Email can be responsive, too.",
+
+		"Using fluid structures, fluid images, and media queries, we can make email (nearly) as responsive as modern websites.",
+
+		"Mobile opens are at 48%",
+
+		"With an increasingly mobile audience, can you really afford to keep sending emails designed for desktop?",
+
+		"How does it work?",
+
+		"Responsive email works on the same principles as RWD: Fluid Images, Fluid Structure and Media Queries.",
+		
+		"Resources for learning more",
+		
+		"Litmus Community: https://litmus.com/community",
+	
+		"MailChimp Template Reference: http://templates.mailchimp.com/",
+		
+		"Campaign Monitor Guides: https://www.campaignmonitor.com/resources/"]
+	},
+	"salted-beta": {
+		"title": "Salted B",
+		"text": ["Yes. Email can be responsive too.",
+
+		"Using fluid structures, fluid images, and media queries, we can make email as responsive as modern websites.",
+
+		"Mobile opens are at 48%",
+
+		"With an increasingly mobile audience, can you really afford to keep sending emails designed for desktop?",
+
+		"How does it work?",
+
+		"Responsive email works on the same principles as RWD: Fluid Images, Fluid Structure and Media Queries.",
+		
+		"Resources for learning more",
+		
+		"Litmus Community: https://litmus.com/community",
+	
+		"MailChimp Template Reference: http://templates.mailchimp.com/",
+		
+		"Campaign Monitor Guides: https://www.campaignmonitor.com/resources/"]
+	}
+}
