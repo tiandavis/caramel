@@ -4,7 +4,7 @@ Caramel is a responsive email framework built with [Salted](https://github.com/r
 
 Building HTML emails may be old school, but your workflow doesn't have to be. Harp static website generator is builtin so you can take advantage of base layouts, semantic templates and testing. 
 
-Integrate CSS extensions like Sass or LESS to craft more robust CSS. Simply change the file extensions from `stylesheets\*.scss` to `stylesheets\*.less` Automate common tasks like compiling CSS preprocessors to CSS, CSS inlining and pushing to email service providers like Mandrill.
+Integrate CSS extensions like Sass or LESS to craft more robust CSS. Simply change the file extensions from `stylesheets\*.scss` to `stylesheets\*.less` Automate common tasks like compiling CSS preprocessors to CSS, CSS inlining and pushing to email service providers like [Mandrill](https://mandrill.com/).
 
 Caramel does the following for you:
 
@@ -39,11 +39,14 @@ To see on your mobile device, do something like:
 open my-computer-name.local:9000/src/salted
 ```
 
+Caramel uses [Gulp](http://gulpjs.com/) for running tasks. If there is another task you need, just add the new task to `gulpfile.js`.
+
+
 ##Emails
 The responsive HTML emails are in the `src` folder. Text versions of each email are found in `src\_data.json`. Each HTML email should have a corresponding text version.
 
 
-##Push To Mandrill
+##Push HTML Templates To Mandrill
 Then run this `gulp` task:
 
 ```
