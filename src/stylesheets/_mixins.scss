@@ -5,18 +5,10 @@
           border-radius: $radius;
 }
 
-@mixin mobile-button-border($color) {
+@mixin mobile-button-border($color, $horizonal: 15px, $vertical: 25px) {
 	background-color: $color; 
-	border-top: 15px solid $color; 
-	border-bottom: 15px solid $color; 
-	border-left: 25px solid $color; 
-	border-right: 25px solid $color; 
-}
-
-@mixin mobile-article-button-border($color) {
-	background-color: $color; 
-	border-top: 10px solid $color; 
-	border-bottom: 10px solid $color; 
-	border-left: 20px solid $color; 
-	border-right: 20px solid $color; 
+	border-top: $horizonal solid $color; 
+	border-bottom: $horizonal solid $color; 
+	border-left: $vertical solid $color; 
+	border-right: $vertical solid $color; 
 }

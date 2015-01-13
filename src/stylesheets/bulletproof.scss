@@ -24,23 +24,23 @@
 }
 
 .litmus-gold {
-	@include mobile-article-button-border(#F6BB42)
+	@include mobile-button-border(#F6BB42, 10px, 20px)
 }
 
 .mailchimp-blue {
-	@include mobile-article-button-border(#5D9CEC)
+	@include mobile-button-border(#5D9CEC, 10px, 20px)
 }
 
 .campaign-monitor-blue {
-	@include mobile-article-button-border(#4FC1E9)
+	@include mobile-button-border(#4FC1E9, 10px, 20px)
 }
 
 .github-blue {
-	@include mobile-article-button-border(#4FC1E9)
+	@include mobile-button-border(#4FC1E9, 10px, 20px)
 }
 
 .twitter-blue {
-	@include mobile-article-button-border(#4D98D5)
+	@include mobile-button-border(#4D98D5, 10px, 20px)
 }
 
 
