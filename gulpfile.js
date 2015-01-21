@@ -62,6 +62,6 @@ gulp.task('default', ['harp:compile', 'premailer', 'harp:server', 'watch']);
 
 gulp.task('inliner', ['premailer']);
 
-gulp.task('esp', ['mandrill']);
+gulp.task('esp', ['harp:compile', 'premailer', 'mandrill']);
 
 
